@@ -1,0 +1,396 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>Location</th>
+      <th>Loc ID</th>
+      <th>Occupation</th>
+      <th>2003</th>
+      <th>2006</th>
+      <th>2009</th>
+      <th>2012</th>
+      <th>2015</th>
+      <th>2018</th>
+      <th>Predicted 2018</th>
+      <th>2021</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>Abilene, TX</td>
+      <td>1</td>
+      <td>All Occupations</td>
+      <td>53600</td>
+      <td>62670</td>
+      <td>63330</td>
+      <td>62020.0</td>
+      <td>65070.0</td>
+      <td>64300</td>
+      <td>32874</td>
+      <td>93972</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>Amarillo, TX</td>
+      <td>2</td>
+      <td>All Occupations</td>
+      <td>95500</td>
+      <td>106470</td>
+      <td>108690</td>
+      <td>109750.0</td>
+      <td>114450.0</td>
+      <td>114830</td>
+      <td>117077</td>
+      <td>170048</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>Austin-San Marcos, TX</td>
+      <td>3</td>
+      <td>All Occupations</td>
+      <td>651670</td>
+      <td>711080</td>
+      <td>769370</td>
+      <td>812600.0</td>
+      <td>928810.0</td>
+      <td>1028500</td>
+      <td>1035797</td>
+      <td>1743122</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>Beaumont-Port Arthur, TX</td>
+      <td>4</td>
+      <td>All Occupations</td>
+      <td>153080</td>
+      <td>154910</td>
+      <td>159930</td>
+      <td>157320.0</td>
+      <td>164920.0</td>
+      <td>159560</td>
+      <td>182974</td>
+      <td>312499</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>Brownsville-Harlingen-San Benito, TX</td>
+      <td>5</td>
+      <td>All Occupations</td>
+      <td>112320</td>
+      <td>117680</td>
+      <td>122990</td>
+      <td>125870.0</td>
+      <td>135710.0</td>
+      <td>138510</td>
+      <td>137063</td>
+      <td>210187</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>5</td>
+      <td>Bryan-College Station, TX</td>
+      <td>6</td>
+      <td>All Occupations</td>
+      <td>75500</td>
+      <td>88910</td>
+      <td>91360</td>
+      <td>92990.0</td>
+      <td>189000.0</td>
+      <td>114040</td>
+      <td>118628</td>
+      <td>684439</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>6</td>
+      <td>Corpus Christi, TX</td>
+      <td>7</td>
+      <td>All Occupations</td>
+      <td>157030</td>
+      <td>170810</td>
+      <td>177750</td>
+      <td>181240.0</td>
+      <td>189000.0</td>
+      <td>187540</td>
+      <td>213255</td>
+      <td>293465</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>7</td>
+      <td>Dallas, TX</td>
+      <td>8</td>
+      <td>All Occupations</td>
+      <td>1890340</td>
+      <td>1990180</td>
+      <td>2047600</td>
+      <td>2097080.0</td>
+      <td>2329820.0</td>
+      <td>3568180</td>
+      <td>3551028</td>
+      <td>5418966</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>8</td>
+      <td>El Paso, TX</td>
+      <td>9</td>
+      <td>All Occupations</td>
+      <td>251970</td>
+      <td>258140</td>
+      <td>269250</td>
+      <td>275400.0</td>
+      <td>290630.0</td>
+      <td>304900</td>
+      <td>382783</td>
+      <td>495552</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>9</td>
+      <td>Fort Worth-Arlington, TX</td>
+      <td>10</td>
+      <td>All Occupations</td>
+      <td>764710</td>
+      <td>818690</td>
+      <td>856430</td>
+      <td>879300.0</td>
+      <td>973010.0</td>
+      <td>1001591</td>
+      <td>1294010</td>
+      <td>1954667</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>10</td>
+      <td>Houston, TX</td>
+      <td>11</td>
+      <td>All Occupations</td>
+      <td>2057880</td>
+      <td>2378080</td>
+      <td>2563840</td>
+      <td>2640640.0</td>
+      <td>2929970.0</td>
+      <td>2982420</td>
+      <td>2967070</td>
+      <td>5797061</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>11</td>
+      <td>Killeen-Temple, TX</td>
+      <td>12</td>
+      <td>All Occupations</td>
+      <td>100720</td>
+      <td>113000</td>
+      <td>121180</td>
+      <td>127320.0</td>
+      <td>132490.0</td>
+      <td>138520</td>
+      <td>108505</td>
+      <td>144272</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>12</td>
+      <td>Laredo, TX</td>
+      <td>13</td>
+      <td>All Occupations</td>
+      <td>74770</td>
+      <td>82410</td>
+      <td>86940</td>
+      <td>90020.0</td>
+      <td>96340.0</td>
+      <td>99900</td>
+      <td>70286</td>
+      <td>117353</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>13</td>
+      <td>Longview-Marshall, TX</td>
+      <td>14</td>
+      <td>All Occupations</td>
+      <td>91060</td>
+      <td>88160</td>
+      <td>94330</td>
+      <td>98130.0</td>
+      <td>98530.0</td>
+      <td>91920</td>
+      <td>90015</td>
+      <td>80037</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>14</td>
+      <td>Lubbock, TX</td>
+      <td>15</td>
+      <td>All Occupations</td>
+      <td>115560</td>
+      <td>122380</td>
+      <td>123840</td>
+      <td>125800.0</td>
+      <td>137110.0</td>
+      <td>142240</td>
+      <td>171408</td>
+      <td>237749</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>15</td>
+      <td>McAllen-Edinburg-Mission, TX</td>
+      <td>16</td>
+      <td>All Occupations</td>
+      <td>176900</td>
+      <td>203380</td>
+      <td>220110</td>
+      <td>227710.0</td>
+      <td>243340.0</td>
+      <td>260260</td>
+      <td>197067</td>
+      <td>379800</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>16</td>
+      <td>Odessa-Midland, TX</td>
+      <td>17</td>
+      <td>All Occupations</td>
+      <td>102280</td>
+      <td>60170</td>
+      <td>67570</td>
+      <td>68070.0</td>
+      <td>75380.0</td>
+      <td>76540</td>
+      <td>83128</td>
+      <td>101574</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>17</td>
+      <td>San Angelo, TX</td>
+      <td>18</td>
+      <td>All Occupations</td>
+      <td>43760</td>
+      <td>42270</td>
+      <td>43590</td>
+      <td>44660.0</td>
+      <td>46450.0</td>
+      <td>45880</td>
+      <td>22706</td>
+      <td>25566</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>18</td>
+      <td>San Antonio, TX</td>
+      <td>19</td>
+      <td>All Occupations</td>
+      <td>704640</td>
+      <td>789240</td>
+      <td>837030</td>
+      <td>862280.0</td>
+      <td>947350.0</td>
+      <td>1011640</td>
+      <td>1101355</td>
+      <td>1836378</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>19</td>
+      <td>Sherman-Denison, TX</td>
+      <td>20</td>
+      <td>All Occupations</td>
+      <td>41130</td>
+      <td>41810</td>
+      <td>41010</td>
+      <td>40790.0</td>
+      <td>48280.0</td>
+      <td>44890</td>
+      <td>30058</td>
+      <td>71190</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>20</td>
+      <td>Texarkana, TX</td>
+      <td>21</td>
+      <td>All Occupations</td>
+      <td>50250</td>
+      <td>53740</td>
+      <td>53660</td>
+      <td>53830.0</td>
+      <td>56760.0</td>
+      <td>55680</td>
+      <td>42187</td>
+      <td>62839</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>21</td>
+      <td>Tyler, TX</td>
+      <td>22</td>
+      <td>All Occupations</td>
+      <td>84140</td>
+      <td>93100</td>
+      <td>92840</td>
+      <td>92570.0</td>
+      <td>98350.0</td>
+      <td>101740</td>
+      <td>108283</td>
+      <td>163667</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>22</td>
+      <td>Victoria, TX</td>
+      <td>23</td>
+      <td>All Occupations</td>
+      <td>34410</td>
+      <td>48020</td>
+      <td>47680</td>
+      <td>49860.0</td>
+      <td>42290.0</td>
+      <td>39450</td>
+      <td>21913</td>
+      <td>-33814</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>23</td>
+      <td>Waco, TX</td>
+      <td>24</td>
+      <td>All Occupations</td>
+      <td>93520</td>
+      <td>97530</td>
+      <td>99480</td>
+      <td>100300.0</td>
+      <td>109740.0</td>
+      <td>116430</td>
+      <td>116041</td>
+      <td>187768</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>24</td>
+      <td>Wichita Falls, TX</td>
+      <td>25</td>
+      <td>All Occupations</td>
+      <td>55330</td>
+      <td>59760</td>
+      <td>57060</td>
+      <td>55720.0</td>
+      <td>56400.0</td>
+      <td>57020</td>
+      <td>64116</td>
+      <td>73947</td>
+    </tr>
+  </tbody>
+</table>
